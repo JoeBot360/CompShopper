@@ -6,6 +6,7 @@ public class MyList {
     String price1;
     String price2;
     String price3;
+    String bestprice;
 
     public MyList() {
     }
@@ -15,6 +16,8 @@ public class MyList {
         this.price1 = price1;
         this.price2 = price2;
         this.price3 = price3;
+        this.bestprice = "best?";
+
     }
 
     public String getItemtitle() {
@@ -48,4 +51,13 @@ public class MyList {
     public void setPrice3(String price3) {
         this.price3 = price3;
     }
+
+    public String getBestprice() {
+        return bestprice;
+    }
+
+    public void setBestprice(String bestprice) {
+        this.bestprice = bestprice;
+    }
+
 }
